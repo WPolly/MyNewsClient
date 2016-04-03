@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="ContentDescription" severity="ignore" />
+    <issue id="HardcodedText" severity="ignore" />
+    <issue id="SimpleDateFormat">
+        <ignore path="src/com/xiaoshan/zhbj/ui/RefreshListView.java" />
+    </issue>
+    <issue id="UselessParent">
+        <ignore path="res/layout/list_pic_group.xml" />
+    </issue>
+</lint>

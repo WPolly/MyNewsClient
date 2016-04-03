@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+    
+    <ImageView 
+        android:id="@+id/iv_list_news"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:src="@drawable/demo"
+        android:scaleType="centerCrop"
+        android:padding="5dp"/>
+    
+    <TextView 
+        android:id="@+id/tv_list_news_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="天津大爆炸之后，习近平当局强硬表态要求追责；官媒接连起底涉事企业官商勾结黑幕，释放针对曾任天津书记的现任江派常委张高丽的问责信号。时政评论人士分析，习近平与江泽民权斗正酣，张高丽等人是江泽民在政治局常委会里的代理人；拿下张高丽，正是绝佳时机。"
+        android:layout_alignTop="@id/iv_list_news"
+        android:layout_toRightOf="@id/iv_list_news"
+        android:layout_marginLeft="5dp"
+        android:maxLines="2"
+        android:ellipsize="end"
+        android:padding="5dp"
+        android:textSize="16sp"
+        android:textColor="#000000"
+        android:layout_marginTop="5dp"/>
+    
+    <TextView 
+        android:id="@+id/tv_list_news_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2014-10-1109:45"
+        android:textColor="#88000000"
+        android:layout_alignBottom="@id/iv_list_news"
+        android:layout_toRightOf="@id/iv_list_news"
+        android:layout_marginLeft="10dp"
+        android:textSize="14sp"
+        android:layout_marginBottom="5dp"
+        />
+
+</RelativeLayout>
